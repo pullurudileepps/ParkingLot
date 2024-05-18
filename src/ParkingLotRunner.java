@@ -109,5 +109,6 @@ public class ParkingLotRunner {
 
         InvoiceGenerationResp invoiceGenerationResp = invoiceController.GenerateTicket(invoiceReqDto);
         System.out.println(invoiceGenerationResp);
+
     }
 }
